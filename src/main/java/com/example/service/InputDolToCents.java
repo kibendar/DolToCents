@@ -15,7 +15,7 @@ public class InputDolToCents implements Input {
   public String getInput() {
     System.out.println("Enter the amount of dollars: ");
 
-    return scan.next();
+    return scan.next() + "$";
   }
 
   @Override

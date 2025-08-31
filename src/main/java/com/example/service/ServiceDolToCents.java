@@ -56,5 +56,7 @@ public class ServiceDolToCents {
         invalidInput);
   }
 
-  public void runService() {}
+  public void runService() {
+    convertProcess();
+  }
 }
